@@ -1,3 +1,19 @@
+.red-banner {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  background-color: #F6F6F6;
+  h2 {
+    color: #4A4A4A;
+    margin-bottom: 0px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+  }
+}
+
 .ansatz {
   height: 60vh;
   display: flex;
@@ -15,11 +31,11 @@
       justify-content: center;
       h1 {
         font-weight: bold;
-        color: #2A2D34;
+        color: #4A4A4A;
       }
       p {
         font-size: 18px;
-        color: #2A2D34;
+        color: #4A4A4A;
       }
     }
   }
@@ -49,18 +65,18 @@
 }
 
 .ziel {
-  background-color: #ADE8FF;
+  background-color: #EBEBEB;
 }
 
 .ziel-txt {
-  background-color: #4ACBFF;
+  background-color: #EBEBEB;
 }
 
 .steps-header {
   font-weight: bold;
   margin: 50px;
   text-align: center;
-  color: #2A2D34;
+  color: #4A4A4A;
 }
 
 .steps {
@@ -74,7 +90,7 @@
     padding: 0px 40px;
   }
   i {
-    background: #2A2D34;
+    background: #4A4A4A;
     font-size: 50px;
     height: 100px;
     width: 100px;
@@ -87,7 +103,7 @@
   }
   p {
     text-align: center;
-    color: #2A2D34;
+    color: #4A4A4A;
   }
 }
 
@@ -99,7 +115,7 @@
     transition: background-color 0.6s;
   }
   div:hover {
-    background-color: #2A2D34;
+    background-color: #4A4A4A;
     h3, li {
       color: #ADE8FF;
     }

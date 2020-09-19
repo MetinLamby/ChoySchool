@@ -5,5 +5,13 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
-  border: 3px solid #4ACBFF;
+  background-color: #FD1015;
+  box-shadow: #FD1015 0px 10px 40px -10px;
+  transition: all .15s ease;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  text-decoration: none;
 }
