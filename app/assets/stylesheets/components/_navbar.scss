@@ -1,5 +1,11 @@
 .navbar-lewagon {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
   justify-content: space-between;
+  background-color: white;
   .navbar-brand {
     color: #4A4A4A;
     font-size: 36px;

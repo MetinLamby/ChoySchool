@@ -14,6 +14,11 @@
   }
 }
 
+.key-word {
+  background: green;
+  border-radius: 5px;
+}
+
 .ansatz {
   height: 60vh;
   display: flex;
@@ -69,7 +74,7 @@
 }
 
 .ziel-txt {
-  background-color: #EBEBEB;
+  background-color: #F6F6F6;
 }
 
 .steps-header {
@@ -108,26 +113,58 @@
 }
 
 .angebot {
+  height: 700px;
+  margin-bottom: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   div {
     padding: 0px 25px;
     transition: background-color 0.6s;
   }
   div:hover {
-    background-color: #4A4A4A;
-    h3, li {
-      color: #ADE8FF;
-    }
+    background-color: #F6F6F6;
   }
-  h3 {
+  h4 {
+    margin: 20px 0px;
+    text-align: center;
+    color: #4A4A4A;
+  }
+  h1 {
     margin: 20px 0px;
     text-align: center;
     font-weight: bold;
+    font-size: 3rem;
+    color: #4A4A4A;
+  }
+  ul > li {
+    margin-top: 10px;
+    list-style: "✅   ";
+    list-style-position: outside;
   }
   li {
     line-height: 2.3;
   }
+  .angebot-box {
+    //border: solid 1px red;
+    position: relative;
+    height: inherit;
+    margin: 0px 45px;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(126,87,88,.1), 0 5px 15px rgba(0,0,0,.07);
+  }
+}
+
+.box-btn-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.btn-box {
+  position: absolute;
+  bottom: 40px;
 }
 
 
