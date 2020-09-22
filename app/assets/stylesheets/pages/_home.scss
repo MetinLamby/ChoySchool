@@ -84,6 +84,21 @@
   color: #4A4A4A;
 }
 
+.steps-header-text {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.steps-header-text-paragraph {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 .steps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -167,4 +182,24 @@
   bottom: 40px;
 }
 
+.idea-div-intro {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  hr {
+    display: block;
+    height: 15px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    width: 70%;
+  }
+  p {
+    margin-right: 10px;
+    color: #FD1015;
+  }
+}
 

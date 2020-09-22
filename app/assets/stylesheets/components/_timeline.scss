@@ -12,8 +12,12 @@
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 100%;
+  height: 70%;
   background: #EBEBEB;
+}
+
+.timelineTwo:before {
+  height: 80% !important;
 }
 
 .timeline ul {
